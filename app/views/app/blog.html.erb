@@ -1,0 +1,198 @@
+
+
+<%= stylesheet_link_tag "app/blog.css" %>
+<%= javascript_include_tag "app/blog.js" %>
+<ol class="breadcrumb">
+   <li class="breadcrumb-item">
+      <a href="#">Blog</a>
+   </li>
+   <li class="breadcrumb-item active">All that is in mind</li>
+</ol>
+<div class="card" style="padding:10px">
+   <div class="card_header">
+      <h2>Search</h2>
+   </div>
+   <form>
+      <div class="row">
+         <div class="col-md-3">
+            <div class="form-group">
+               <div class="form-label-group">
+                  <input type="email" id="inputEmail" class="form-control" placeholder="Blog title" required="required" autofocus="autofocus">
+               </div>
+            </div>
+         </div>
+         <div class="col-md-3">
+            <div class="form-group">
+               <div class="form-label-group">
+                  <input type="text" id="inputPassword" class="form-control" placeholder="Authored By" required="required">
+               </div>
+            </div>
+         </div>
+         <div class="col-md-3">
+            <div class="form-group">
+               <div class="form-label-group">
+                  <input type="email" id="inputEmail" class="form-control" placeholder="(dd/mm/yy)" required="required" autofocus="autofocus">
+               </div>
+            </div>
+         </div>
+         <div class="col-md-3">
+            <div class="form-group">
+               <div class="form-label-group">
+                  <input type="text" id="inputPassword" class="form-control" placeholder="Genre" required="required">
+               </div>
+            </div>
+         </div>
+      </div>
+      <a class="btn btn-primary btn-block" href="blog">Search</a>
+   </form>
+</div>
+<br><br>
+<button data-toggle="modal" data-target="#myModal" class="btn btn-primary"><i class="fa fa-pencil"></i> New Blog</button>
+<br><br>
+<div class="card-deck">
+   <div class="card blog">
+      <div class="card-body text-center">
+         <p class="card-text"><b>Story behind the story</b></p>
+         <div>
+            Another part of my fixation on morbid themes is personal: my father recently passed away after a long illness. And I have not known grief to be a neat linear path, with a clear beginning and end. I’ve known it to be a wet, snaking thing that seeps into the heart and bubbles up in spurts at the most bizarre provocations: an old e-mail or a catch of song.
+         </div>
+      </div>
+      <div class="card-footer small">
+         <p>By Sweekriti Sharma (Class VIII) </p>
+         <a href="#"><i class="fa fa-thumbs-up" ></i>200</a>
+      </div>
+   </div>
+   <div class="card blog">
+      <div class="card-body text-center">
+         <p class="card-text"><b>Self-heating drinks and the D-day landings</b></p>
+         <div>
+            The imposing cliffs of Pointe de Hoc overlook the Normandy beaches where Allied troops landed on June 6 1944. The assaults marked the beginning of the liberation of German-occupied Europe. And the cliff tops were the perfect spot for artillery pieces capable of devastating any troops who tried to attack the Omaha and Utah beachheads.
+         </div>
+      </div>
+      <div class="card-footer small">
+         <p>By Ishaan Sharma (Class IX)</p>
+         <a href="#"><i class="fa fa-thumbs-up" ></i>20</a>
+      </div>
+   </div>
+   <div class="card blog">
+      <div class="card-body text-center">
+         <p class="card-text"><b>Time simply stopped</b></p>
+         <div>
+            Recently in rehearsal there was a moment when time simply stopped. We were working on the wedding pas from The Sleeping Beauty, and I became completely unaware of the visitors who had come to watch. I was even unaware of the watchful eyes of my ballet master. All that I knew in that moment was the bliss of being intertwined with the music, the choreography and my partner.
+         </div>
+      </div>
+      <div class="card-footer small">
+         <p>By Arashad Warsi (Class VII)</p>
+         <a href="#"><i class="fa fa-thumbs-up" ></i>189</a> 
+      </div>
+   </div>
+   <div class="card blog">
+      <div class="card-body text-center">
+         <p class="card-text"><b>PandG. Pack and Go</b></p>
+         <div>
+            We have hundreds of thousands free stock photos and every day new high resolution photos will be added. All photos are hand-picked from photos uploaded by our users or sourced from free image websites. We make sure all published pictures are high-quality and licensed under the Pexels license.
+         </div>
+      </div>
+      <div class="card-footer small">
+         <p>By Christie Xavier (Class XI)</p>
+         <a href="#"><i class="fa fa-thumbs-up" ></i>10</a>
+      </div>
+   </div>
+</div>
+<br><br>
+<div class="card-deck">
+   <div class="card blog">
+      <div class="card-body text-center">
+         <p class="card-text"><b>Story behind the story</b></p>
+         <div>
+            Another part of my fixation on morbid themes is personal: my father recently passed away after a long illness. And I have not known grief to be a neat linear path, with a clear beginning and end. I’ve known it to be a wet, snaking thing that seeps into the heart and bubbles up in spurts at the most bizarre provocations: an old e-mail or a catch of song.
+         </div>
+      </div>
+      <div class="card-footer small">
+         <p>By Sweekriti Sharma (Class VIII) </p>
+         <a href="#"><i class="fa fa-thumbs-up" ></i>200</a>
+      </div>
+   </div>
+   <div class="card blog">
+      <div class="card-body text-center">
+         <p class="card-text"><b>Self-heating drinks and the D-day landings</b></p>
+         <div>
+            The imposing cliffs of Pointe de Hoc overlook the Normandy beaches where Allied troops landed on June 6 1944. The assaults marked the beginning of the liberation of German-occupied Europe. And the cliff tops were the perfect spot for artillery pieces capable of devastating any troops who tried to attack the Omaha and Utah beachheads.
+         </div>
+      </div>
+      <div class="card-footer small">
+         <p>By Ishaan Sharma (Class IX)</p>
+         <a href="#"><i class="fa fa-thumbs-up" ></i>20</a>
+      </div>
+   </div>
+   <div class="card blog">
+      <div class="card-body text-center">
+         <p class="card-text"><b>Time simply stopped</b></p>
+         <div>
+            Recently in rehearsal there was a moment when time simply stopped. We were working on the wedding pas from The Sleeping Beauty, and I became completely unaware of the visitors who had come to watch. I was even unaware of the watchful eyes of my ballet master. All that I knew in that moment was the bliss of being intertwined with the music, the choreography and my partner.
+         </div>
+      </div>
+      <div class="card-footer small">
+         <p>By Arashad Warsi (Class VII)</p>
+         <a href="#"><i class="fa fa-thumbs-up" ></i>189</a> 
+      </div>
+   </div>
+   <div class="card blog">
+      <div class="card-body text-center">
+         <p class="card-text"><b>PandG. Pack and Go</b></p>
+         <div>
+            We have hundreds of thousands free stock photos and every day new high resolution photos will be added. All photos are hand-picked from photos uploaded by our users or sourced from free image websites. We make sure all published pictures are high-quality and licensed under the Pexels license.
+         </div>
+      </div>
+      <div class="card-footer small">
+         <p>By Christie Xavier (Class XI)</p>
+         <a href="#"><i class="fa fa-thumbs-up" ></i>10</a>
+      </div>
+   </div>
+</div>
+<!-- MODAL FOR NEW BLOG-->
+<div class="modal" id="myModal">
+   <div class="modal-dialog">
+      <div class="modal-content">
+         <!-- Modal Header -->
+         <div class="modal-header">
+            <div class="modal-title">
+               <div class="form-group">
+                  <div class="form-label-group">
+                     <input type="text" class="form-control"  placeholder="Title"></input>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- Modal body -->
+         <div class="modal-body">
+            <div class="form-group">
+               <div class="form-label-group">
+                  <select class="form-control" >
+                     <option>-- Genre --</option>
+                     <option>Nature</option>
+                     <option>Cultural</option>
+                     <option>Sports</option>
+                  </select>
+               </div>
+            </div>
+            <div class="form-group">
+               <div class="form-label-group">
+                  <input type="text" class="form-control"  placeholder="Brief description"></input>
+               </div>
+            </div>
+            <div class="form-group">
+               <div class="form-label-group">
+                  <div><textarea rows="4" cols="50" class="form-control" ></textarea></div>
+               </div>
+            </div>
+         </div>
+         <!-- Modal footer -->
+         <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Save & request approval</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+         </div>
+      </div>
+   </div>
+</div>
+
