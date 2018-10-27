@@ -97,8 +97,9 @@ h3 {
 }
 
 #contact{
-    background-color :#2c3e50;
+    background-color :grey;
     color:white;
+    padding: 10vh
 }
 
 .school_desc_text{
@@ -107,4 +108,21 @@ h3 {
     text-align:center;
     padding:50px 80px;
     text-align: justify;
+}
+#principal_space{
+    background-color :#2c3e50;
+    padding: 10vh;
+    height: 53vh;
+}
+img.small_pic {
+    width: 34vh;
+    /* height: 43vh; */
+}
+span{
+    color:white;
+}
+a.contactus{
+    color:white;
+    padding: 5px;
+
 }
