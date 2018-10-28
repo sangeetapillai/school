@@ -27,11 +27,6 @@
     background-size: 100% 100%;
 }
 
-.bgimg-4 {
-    background-image: url("http://www.sherwoodhallschool.com/images/2017-18/018.jpg");
-    min-height: 400px;
-    background-size: 100% 100%;
-}
 
 .caption {
     position: absolute;
@@ -99,7 +94,7 @@ h3 {
 #contact{
     background-color :grey;
     color:white;
-    padding: 10vh
+    padding: 5vh;
 }
 
 .school_desc_text{
@@ -125,4 +120,7 @@ a.contactus{
     color:white;
     padding: 5px;
 
+}
+.section-heading{
+    margin-bottom: 5vh;
 }
